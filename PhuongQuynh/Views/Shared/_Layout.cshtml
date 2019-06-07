@@ -1,0 +1,1305 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ảnh Màu Phương Quỳnh</title>
+    <meta name="author" content="DSA79">
+    <meta name="keywords" content="responsive, premium template, html5 template, one page, landing page, business, corporate, project">
+    <meta name="description" content="xLander - Premium Flexible Landing Page Template">
+
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- Libs CSS -->
+    <link href="~/Content/css/responsive.css" rel="stylesheet" />
+    <link href="~/Content/css/bootstrap.css" rel="stylesheet">
+    <link href="~/Content/css/font-awesome.min.css" rel="stylesheet">
+    <link href="~/Content/css/flexslider.css" rel="stylesheet">
+    <link href="~/Content/css/prettyPhoto.css" rel="stylesheet">
+    <link href="~/Content/css/owl.carousel.css" rel="stylesheet">
+
+    <!-- On Scroll Animations -->
+    <link href="~/Content/css/animate.min.css" rel="stylesheet">
+
+    <!-- Template CSS -->
+    <link href="~/Content/css/style.css" rel="stylesheet">
+
+    <!-- Style Switcher CSS -->
+    <link href="~/Content/css/green.css" rel="alternate stylesheet" title="green-theme">
+    <link href="~/Content/css/blue.css" rel="alternate stylesheet" title="blue-theme">
+    <link href="~/Content/css/tomato.css" rel="alternate stylesheet" title="tomato-theme">
+    <link href="~/Content/css/turquoise.css" rel="alternate stylesheet" title="turquoise-theme">
+
+    <!-- Responsive CSS -->
+    <link href="~/Content/css/responsive.css" rel="stylesheet">
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="~/Content/img/icons/favicon.ico">
+    <link rel="apple-touch-icon" sizes="144x144" href="~/Content/img/icons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="~/Content/img/icons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="~/Content/img/icons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" href="~/Content/img/icons/apple-touch-icon.png">
+
+    <!-- Google Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300italic,800italic,800,700italic,700,600italic,600,400italic,300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+
+
+
+    <!-- PRELOADER
+    ============================================= -->
+    <div class="animationload">
+        <div class="loader"></div>
+    </div>
+
+
+
+    <!-- HEADER
+    ============================================= -->
+    <header id="header">
+        <div class="navbar navbar-fixed-top">
+            <div class="container">
+
+
+                <!-- Navigation Bar -->
+                <div class="navbar-header">
+
+                    <!-- Responsive Menu Button -->
+                    <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-menu">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                    <!-- Logo Image -->
+                    <a class="navbar-brand" href="#"><img src="~/Content/img/logo1.png" alt="logo" role="banner"></a>
+
+                </div>	<!-- End Navigation Bar -->
+                <!-- Navigation Menu -->
+                <nav id="navigation-menu" class="collapse navbar-collapse" role="navigation">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a id="GoToHome" class="selected-nav" href="#intro">TRANG CHỦ</a></li>
+                        <li><a id="GoToAbout" href="#about">GIỚI THIỆU</a></li>
+                        <li><a id="GoToFeatures" href="#features">DỊCH VỤ</a></li>
+                        <li><a id="GoToWorks" href="#portfolio">SẢN PHẨM</a></li>
+                        @*<li><a id="GoToTeam" href="#team">Team</a></li>*@
+                        <li><a id="GoToPricing" href="#pricing">BẢNG GIÁ</a></li>
+                        @*<li><a id="GoToBlog" href="#blog">Blog</a></li>*@
+                        <li><a id="GoToContacts" href="#contact-info">LIÊN HỆ</a></li>
+                    </ul>
+                </nav>  <!-- End Navigation Menu -->
+
+
+            </div>	 <!-- End container -->
+        </div>	  <!-- End navbar fixed top  -->
+    </header>	<!-- END HEADER -->
+    <!-- STYLE SWITCHER
+    ============================================= -->
+    @*<div id="stlChanger">
+        <div class="blockChanger bgChanger">
+            <a href="#" class="chBut"><i class="fa fa-gears"></i></a>
+            <div class="chBody">
+
+
+                <div class="stBlock text-center" style="margin: 20px">
+                    <p>Template Layout</p>
+                    <a class="s_1" href="http://dsathemes.com/html/xlander/contact/index.html">Contact Form</a>
+                    <a class="s_1" href="http://dsathemes.com/html/xlander/mailchimp/index.html">MailChimp Form</a>
+                    <a class="s_1" href="http://dsathemes.com/html/xlander/pattern/index.html">Pattern Background</a>
+                    <a class="s_1" href="http://dsathemes.com/html/xlander/slider/index.html">Fullscreen Slider</a>
+                    <a class="s_1" href="http://dsathemes.com/html/xlander/video/index.html">Video Background</a>
+                </div>
+
+
+                <div class="stBlock text-center" style="margin: 20px;">
+                    <p>Color Scheme</p>
+                    <div class="stBgs" style="margin: 15px 0;">
+                        <a href="javascript:chooseStyle('green-theme', 60)"><img src="~/Content/img/color-scheme/green.png" alt="" /></a>
+                        <a href="javascript:chooseStyle('tomato-theme', 60)"><img src="~/Content/img/color-scheme/tomato.png" alt="" /></a>
+                        <a href="javascript:chooseStyle('turquoise-theme', 60)"><img src="~/Content/img/color-scheme/turquoise.png" alt="" /></a>
+                        <a href="javascript:chooseStyle('blue-theme', 60)"><img src="~/Content/img/color-scheme/blue.png" alt="" /></a>
+                    </div>
+                </div>
+
+
+                <div class="stBlock text-center" style="margin: 0px auto 20px;">
+                    <a class="btn btn-theme" href="javascript:chooseStyle('none', 60)" checked="checked">Reset color</a>
+                </div>
+
+
+            </div>
+        </div>
+    </div>	   END SWITCHER*@ 
+    <!-- CONTENT WRAPPER
+    ============================================= -->
+<div id="content_wrapper">
+
+
+
+    <!-- INTRO
+    ============================================= -->
+    <section id="intro">
+        <div class="overlay">
+            <div class="container">
+
+
+                <!-- INTRO SLIDER -->
+                <div class="row">
+                    <div class="col-md-12 text-center">
+
+                        <!-- Rotator Content -->
+                        <div class="intro_slider">
+                            <ul class="slides">
+
+                                <!-- Intro Slide #1 -->
+                                <li>
+                                    <div class="intro_slide">
+                                        <h2>HÃY LIÊN HỆ VỚI<br /> CHÚNG TÔI</h2>
+
+                                        <!-- INTRO BUTTONS -->
+                                        <div class="intro_buttons">
+                                            <a class="btn btn-theme" id="GoToWorks" href="#contact-info" >Liên hệ ngay</a>
+                                        </div>
+                                    </div>
+                                </li>	<!-- End Intro Slide #1 -->
+                                <!-- Intro Slide #2 -->
+                                <li>
+                                    <div class="intro_slide">
+                                        <h2>PHỤ VỤ TẬN TÌNH  <br />CHU ĐÁO</h2>
+
+                                        <!-- INTRO BUTTONS -->
+                                        <div class="intro_buttons">
+                                            <a class="btn btn-theme" id="GoToWorks" href="#contact-info">Liên hệ ngay</a>
+                                        </div>
+                                    </div>
+                                </li>	<!-- End Intro Slide #2 -->
+                                <!-- Intro Slide #3 -->
+                                <li>
+                                    <div class="intro_slide">
+                                        <h2>TƯ VẤN CHO BẠN <br />MIỄN PHÍ</h2>
+
+                                        <!-- INTRO BUTTONS -->
+                                        <div class="intro_buttons">
+                                            <a class="btn btn-theme" id="GoToWorks" href="#contact-info">Liên hệ ngay</a>
+                                        </div>
+                                    </div>
+                                </li>	<!-- End Intro Slide #3 -->
+
+                            </ul>
+                        </div>	 <!-- End Rotator Content -->
+
+                    </div>
+                </div>	 <!-- END INTRO SLIDER -->
+
+
+            </div>			<!-- End container -->
+        </div>			<!-- End overlay-->
+    </section>	<!-- END INTRO -->
+    <!-- ABOUT
+    ============================================= -->
+    <section id="about">
+        <div class="container">
+
+
+            <!-- SECTION TITLE -->
+            <div class="row">
+                <div class="col-sm-12 titlebar">
+
+                    <h2>GIỚI THIỆU</h2>
+                </div>
+            </div>
+
+
+            <!-- TABS HOLDER -->
+            <div id="tabs-holder" class="row">
+
+
+                <!-- TABS -->
+                <div class="col-md-7">
+
+
+                    <!-- Nav Tabs -->
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li class="active animated" data-animation="bounceIn" data-animation-delay="300"><a href="#tab_1" role="tab" data-toggle="tab">Về công ty</a></li>
+                        @*<li class=" animated" data-animation="bounceIn" data-animation-delay="400"><a href="#tab_2" role="tab" data-toggle="tab">Các hoạt động</a></li>*@
+                    </ul>
+
+
+                    <!-- Tab Panes -->
+                    <div class="tab-content">
+
+
+                        <!-- TAB #1 -->
+                        <div id="tab_1" class="tab-pane active">
+
+                            <!-- Tab #1 Description -->
+                            <p>
+                                Doanh nghiệp tư nhân Ảnh màu Phương Quỳnh hoạt động về ngành ảnh đã lâu năm, với kinh nghiệm đã tích lũy. Chúng tôi luôn làm hài lòng các khách hàng ghé đến cửa hàng.
+                            </p>
+
+                            <p>
+                                Với kỹ thuật hiện đại, rửa ảnh, chụp hình chuyên nghiệp, các hình ảnh được chụp để làm giấy tờ hồ sơ, passport,...
+                                Làm các album đám cưới, lễ tang, hội họp,...
+                            </p>
+                            <p>
+                                Doanh nghiệp tư nhân Phương Quỳnh luôn nâng cao nghiệp vụ, nâng cao tay nghề cùng với máy móc hiện đại, luôn tổ chức các hoạt động du lịch hàng năm.
+                            </p>
+
+                            <p>
+                                Với phong cách phục vụ tận tình, chuyên nghiệp, chúng tôi mong sẽ làm hài lòng quý khách hàng.
+                            </p><!-- Tab #1 Buttons -->
+                            @*<a href="#" class="btn btn-theme animated" data-animation="bounceIn" data-animation-delay="300">Discover More</a>*@
+
+                        </div>	<!-- END TAB #1 -->
+
+                    </div>	<!-- End Tab Panes -->
+
+
+                </div>	<!-- END TABS -->
+                <!-- TABS HOLDER IMAGE -->
+                <div class="col-md-5 text-center animated" data-animation="fadeInRight" data-animation-delay="600">
+                    <img class="img-responsive" src="~/Content/img/thumbs/about-image.jpg" alt="about-image" />
+                </div>
+
+
+            </div>	<!-- END TABS HOLDER -->
+
+
+        </div>	  <!-- End container -->
+    </section>	<!-- END ABOUT -->
+    <!-- ABOUT-1
+    ============================================= -->
+    <!-- HISTORY
+    ============================================= -->
+    <section id="history">
+        <div class="container">
+
+
+            <!-- SECTION TITLE -->
+            <div class="row">
+                <div class="col-sm-12 titlebar">
+                    <h2>HOẠT ĐỘNG KINH DOANH</h2>
+                </div>
+            </div>
+
+
+            <!-- HISTORY TIMELINE HOLDER -->
+            <div class="row">
+                <div class="col-md-12">
+
+
+                    <!-- TIMELINE -->
+                    <div class="timeline">
+
+
+                        <!-- TIMELINE YEAR -->
+                        <div class="timeline-year first text-center">
+                            <span>2019</span>
+                        </div>
+
+
+                        <!-- TIMELINE ITEM -->
+                        <div class="timeline-item">
+                            <div class="col-xs-12 col-md-5 pull-left timeline-item-content animated" data-animation="fadeInLeft" data-animation-delay="400">
+
+                                <!-- History Date  -->
+                                <div class="timeline-item-title clearfix">
+                                    <h4>Hoạt động phát triển</h4>
+                                </div>
+
+                                <!-- History Date Text  -->
+                                <div class="timeline-item-text">
+                                    <p>
+                                        Ngày 06/05/2019, mọi hoạt động kinh doanh của cửa hàng Doanh nghiệp tư nhân Ảnh Màu Phương Quỳnh được dời về
+                                        148D Lý Chính Thắng, Phường 7, Quận 3, Tp. Hồ Chí Minh.
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>	<!-- END HISTORY DATE  -->
+                        <!-- TIMELINE YEAR -->
+                        <div class="timeline-year text-center animated" data-animation="bounceIn" data-animation-delay="400">
+                            <span>2016</span>
+                        </div>
+
+
+                        <!-- TIMELINE ITEM -->
+                        <div class="timeline-item">
+                            <div class="col-xs-12 col-md-5 pull-right timeline-item-content animated" data-animation="fadeInRight" data-animation-delay="500">
+
+                                <!-- History Date  -->
+                                <div class="timeline-item-title clearfix">
+                                    <h4>Đổi địa chỉ kinh doanh</h4>
+                                </div>
+
+                                <!-- History Date Text  -->
+                                <div class="timeline-item-text">
+                                    <p>
+                                        Đến 19/07/2016, Doanh nghiệp tư nhân Ảnh Màu Phương Quỳnh chuyển hoạt động kinh doanh về địa chỉ
+                                        18 Đinh Công Tráng, Phường Tân Định, Quận 1, Tp. Hồ Chí Minh.
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>	<!-- END HISTORY DATE  -->
+                        <!-- TIMELINE YEAR -->
+                        <div class="timeline-year text-center animated" data-animation="bounceIn" data-animation-delay="550">
+                            <span>1993</span>
+                        </div>
+
+
+                        <!-- TIMELINE ITEM -->
+                        <div class="timeline-item">
+                            <div class="col-xs-12 col-md-5 pull-left timeline-item-content animated" data-animation="fadeInLeft" data-animation-delay="600">
+
+                                <!-- History Date  -->
+                                <div class="timeline-item-title clearfix">
+                                    <h4>Bắt đầu hoạt động</h4>
+                                </div>
+
+                                <!-- History Date Text  -->
+                                <div class="timeline-item-text">
+                                    <p>
+                                        Doanh nghiệp tư nhân Ảnh Màu Phường Quỳnh hoạt động và kinh doanh chuyên về ngành ảnh
+                                        tại địa chỉ 70C Nguyễn Huệ, Phường Bến Nghé, Quận 1, Tp. Hồ Chí Minh.
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>	<!-- END HISTORY DATE  -->
+                        <!-- TIMELINE YEAR -->
+                        <div class="timeline-year last text-center animated" data-animation="bounceIn" data-animation-delay="750">
+                            <span>Băt đầu</span>
+                        </div>
+
+
+                    </div>	<!-- END TIMELINE -->
+
+
+                </div>
+            </div>	<!-- END HISTORY TIMELINE HOLDER -->
+
+
+        </div>	  <!-- End container -->
+    </section>	<!-- END HISTORY -->
+
+
+
+
+
+
+
+
+    <section id="features">
+        <div class="container">
+            <!-- SECTION TITLE -->
+            <div class="row">
+                <div class="col-sm-12 titlebar">
+                    
+                    <h2>DỊCH VỤ</h2>
+                </div>
+            </div>
+
+            <!-- ACCORDION HOLDER -->
+            <div id="accordion-holder" class="row">
+
+
+                <!-- ACCORDION HOLDER IMAGE -->
+                <div class="col-md-6 text-center animated" data-animation="fadeInLeft" data-animation-delay="600">
+                    <img class="img-responsive" src="~/Content/img/thumbs/tablet.png" alt="our-philosophy-image" />
+                </div>
+
+
+                <!--  ACCORDION -->
+                <div class="col-md-6">
+                    <div class="panel-group" id="accordion">
+
+
+                        <!-- PANEL #1 -->
+                        <div class="panel panel-default animated" data-animation="fadeInRight" data-animation-delay="300">
+
+                            <!-- Panel Title -->
+                            <div class="panel-heading">
+
+                                <h5 class="panel-title">
+
+                                    <a data-toggle="collapse" class="panel-toggle active" data-parent="#accordion" href="#collapseOne">
+                                        <i class="fa fa-check"></i>
+
+                                        <span style="color:white">Tráng rọi ảnh màu, in ảnh chất lượng cao, in ảnh từ điện thoại di động và các thiết bị chụp ảnh kỹ thuật số.</span>
+                                    </a>
+
+                                </h5>
+
+                            </div>
+
+
+
+                        </div>	<!-- END PANEL #1 -->
+                        <!-- PANEL #2 -->
+                        <div class="panel panel-default animated" data-animation="fadeInRight" data-animation-delay="500">
+
+                            <!-- Panel Title -->
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a data-toggle="collapse" class="panel-toggle" data-parent="#accordion" href="#collapseTwo">
+                                        <i class="fa fa-check"></i>
+                                        <span style="color:white">Phục hồi ảnh cũ.</span>
+                                    </a>
+                                </h4>
+                            </div>
+
+
+
+                        </div>	<!-- END PANEL #2 -->
+                        <!-- PANEL #3 -->
+                        <div class="panel panel-default animated" data-animation="fadeInRight" data-animation-delay="700">
+
+                            <!-- Panel Title -->
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a data-toggle="collapse" class="panel-toggle" data-parent="#accordion" href="#collapseThree">
+                                        <i class="fa fa-check"></i>
+                                        <span style="color:white">Design Album các loại.</span>
+                                    </a>
+                                </h4>
+                            </div>
+
+                            <!-- Panel Title -->
+
+
+                        </div>	<!-- END PANEL #3 -->
+                        <!-- PANEL #4 -->
+                        <div class="panel panel-default animated" data-animation="fadeInRight" data-animation-delay="900">
+
+                            <!-- Panel Title -->
+                            <div class="panel-heading">
+                                <h4 class="panel-title"> <a data-toggle="collapse" class="panel-toggle" data-parent="#accordion" href="#collapseFour"><i class="fa fa-check"></i> <span style="color:white">Chụp ảnh thẻ Visa, Passport, , thẻ học sinh, thẻ các loại.</span> </a> </h4>
+
+                            </div>
+
+
+
+                        </div>	<!-- END PANEL #4 -->
+                        <!-- PANEL #5 -->
+                        <div class="panel panel-default animated" data-animation="fadeInRight" data-animation-delay="900">
+
+                            <!-- Panel Title -->
+                            <div class="panel-heading">
+                                <h4 class="panel-title"> <a data-toggle="collapse" class="panel-toggle" data-parent="#accordion" href="#collapseFour"><i class="fa fa-check"></i> <span style="color:white">Chụp ảnh nghệ thuật, chụp ảnh đám cưới, đám tang, chụp ảnh Baby,chụp ảnh gia đình, chụp ảnh ngoại cảnh.</span> </a> </h4>
+
+                            </div>
+
+
+
+                        </div>	<!-- END PANEL #5 -->
+                        <!-- PANEL #6 -->
+                        <div class="panel panel-default animated" data-animation="fadeInRight" data-animation-delay="900">
+
+                            <!-- Panel Title -->
+                            <div class="panel-heading">
+                                <h4 class="panel-title"> <a data-toggle="collapse" class="panel-toggle" data-parent="#accordion" href="#collapseFour"><i class="fa fa-check"></i> <span style="color:white">Có máy vi tính cho khách tự chọn ảnh hoặc nhờ nhân viên chọn theo ý của khách hàng.</span> </a> </h4>
+
+                            </div>
+
+
+
+                        </div>	<!-- END PANEL #6 -->
+
+
+                    </div>
+                </div>	<!--  END ACCORDION -->
+
+
+            </div>	<!-- END ACCORDION HOLDER -->
+
+
+        </div>	  <!-- End container -->
+    </section>	<!-- END ABOUT-1 -->
+    <!-- SKILLS
+    ============================================= -->
+
+    ============================================= -->
+    @*<section id="features1">
+        <div class="container">
+            <!-- SECTION TITLE -->
+            <div class="row">
+                <div class="col-sm-12 titlebar">
+                    <h3>Our Features</h3>
+                    <h2>How we do it</h2>
+                </div>
+            </div>
+            <div class="row">
+                <!-- FEATURE BOX -->
+                <div class="col-sm-6 col-md-6 animated" data-animation="fadeInLeft" data-animation-delay="500">
+                    <div class="features-box">
+
+                        <!-- Feature Icon -->
+                        <div class="icon-box img-circle">
+                            <i class="fa fa-bars"></i>
+                        </div>
+
+                        <!-- Feature Box Text -->
+                        <div class="features-text">
+                            <h4>Bootstrap Grid</h4>
+                            <p>
+                                Proin a velit aliquam vitae malesuada rutrum. Aenean ullamcorper placerat porttitor velit aliquam vitae.
+                                Aliquam a augue suscipit, bibendum luctus neque laoreet rhoncus ipsum, ullamcorper ullamcorper placerat
+                            </p>
+                        </div>
+
+                    </div>
+                </div>	<!-- END FEATURE BOX -->
+                <!-- FEATURE BOX -->
+                <div class="col-sm-6 col-md-6 animated" data-animation="fadeInRight" data-animation-delay="500">
+                    <div class="features-box">
+
+                        <!-- Feature Icon -->
+                        <div class="icon-box img-circle">
+                            <i class="fa fa-trophy"></i>
+                        </div>
+
+                        <!-- Feature Box Text -->
+                        <div class="features-text">
+                            <h4>jQuery Effects</h4>
+                            <p>
+                                Proin a velit aliquam vitae malesuada rutrum. Aenean ullamcorper placerat porttitor velit aliquam vitae.
+                                Aliquam a augue suscipit, bibendum luctus neque laoreet rhoncus ipsum, ullamcorper ullamcorper placerat
+                            </p>
+                        </div>
+
+                    </div>
+                </div>	<!-- END FEATURE BOX -->
+
+
+            </div>	<!-- End row -->
+
+
+            <div class="row">
+
+
+                <!-- FEATURE BOX -->
+                <div class="col-sm-6 col-md-6 animated" data-animation="fadeInLeft" data-animation-delay="700">
+                    <div class="features-box">
+
+                        <!-- Feature Icon -->
+                        <div class="icon-box img-circle">
+                            <i class="fa fa-wrench"></i>
+                        </div>
+
+                        <!-- Feature Box Text -->
+                        <div class="features-text">
+                            <h4>Easy to Modify</h4>
+                            <p>
+                                Proin a velit aliquam vitae malesuada rutrum. Aenean ullamcorper placerat porttitor velit aliquam vitae.
+                                Aliquam a augue suscipit, bibendum luctus neque laoreet rhoncus ipsum, ullamcorper ullamcorper placerat
+                            </p>
+                        </div>
+
+                    </div>
+                </div>	<!-- END FEATURE BOX -->
+                <!-- FEATURE BOX -->
+                <div class="col-sm-6 col-md-6 animated" data-animation="fadeInRight" data-animation-delay="700">
+                    <div class="features-box">
+
+                        <!-- Feature Icon -->
+                        <div class="icon-box">
+                            <i class="fa fa-life-ring"></i>
+                        </div>
+
+                        <!-- Feature Box Text -->
+                        <div class="features-text">
+                            <h4>Premium Support</h4>
+                            <p>
+                                Proin a velit aliquam vitae malesuada rutrum. Aenean ullamcorper placerat porttitor velit aliquam vitae.
+                                Aliquam a augue suscipit, bibendum luctus neque laoreet rhoncus ipsum, ullamcorper ullamcorper placerat
+                            </p>
+                        </div>
+
+                    </div>
+                </div>	<!-- END FEATURE BOX -->
+
+
+            </div>	<!-- End row -->
+
+
+        </div><!-- End container -->
+    </section>	<!-- END FEATURES -->*@
+
+
+
+
+
+</div>	  <!-- End container -->
+        </section>	<!-- END HISTORY -->
+        <!-- STATISTIC BANNER
+    ============================================= -->
+
+        <!-- LATEST WORKS
+    ============================================= -->
+        <section id="portfolio">
+
+
+            <!-- SECTION TITLE -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 ">
+                        <div class="titlebar">
+                            
+                            <h2>SẢN PHẨM</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- FILTER BUTTONS -->
+            <div class="container">
+                <div class="row">
+                    <div id="gallery-filter" class="col-xs-12 text-center">
+                        <div class="btn-toolbar">
+                            <div class="btn-group">
+                                <span class="filter btn" data-filter="all">Tất cả</span>
+                                <span class="filter btn" data-filter="illustration">Phục hồi ảnh cũ</span>
+                                <span class="filter btn" data-filter="digital_art">Thiết kế Album</span>
+                                <span class="filter btn" data-filter="graphic_design">Visa, Passport, Thể học sinh</span>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- PORTFOLIO IMAGES HOLDER -->
+            <div class="row">
+
+                <ul class="portfolio-items-list">
+
+
+                    <!-- IMAGE #1 -->
+                    <li class="col-xs-6 col-sm-4 col-md-3 portfolio-item illustration web" data-cat="2">
+                        <div class="hover-overlay">
+
+                            <!-- Image Link -->
+                            <img class="img-responsive" src="~/Content/img/portfolio/img1.jpg" alt="Portfolio Image">
+
+                            <!-- Image Zoom -->
+                            <a class="prettyPhoto image_zoom" href="~/Content/img/portfolio/gallery_2x/img1.jpg" title="Portfolio Image">
+                                <div class="item-overlay">
+                                    <div class="overlay-content">
+                                        <h4>Enter Title Here</h4>
+                                        <h5>Project Category</h5>
+                                    </div>
+                                </div>
+                            </a>
+
+                        </div>
+                    </li>	<!-- END IMAGE #1 -->
+                    <!-- IMAGE #2 -->
+                    <li class="col-xs-6 col-sm-4 col-md-3 portfolio-item digital_art illustration" data-cat="3">
+                        <div class="hover-overlay">
+
+                            <!-- Image Link -->
+                            <img class="img-responsive" src="~/Content/img/portfolio/img2.jpg" alt="Portfolio Image">
+
+                            <!-- Image Zoom -->
+                            <a class="prettyPhoto image_zoom" href="~/Content/img/portfolio/gallery_2x/img2.jpg" title="Portfolio Image">
+                                <div class="item-overlay">
+                                    <div class="overlay-content">
+                                        <h4>Enter Title Here</h4>
+                                        <h5>Project Category</h5>
+                                    </div>
+                                </div>
+                            </a>
+
+                        </div>
+                    </li>	<!-- END IMAGE #2 -->
+                    <!-- IMAGE #3 -->
+                    <li class="col-xs-6 col-sm-4 col-md-3 portfolio-item graphic_design digital_art" data-cat="4">
+                        <div class="hover-overlay">
+
+                            <!-- Image Link -->
+                            <img class="img-responsive" src="~/Content/img/portfolio/img3.jpg" alt="Portfolio Image">
+
+                            <!-- Image Zoom -->
+                            <a class="prettyPhoto image_zoom" href="~/Content/img/portfolio/gallery_2x/img3.jpg" title="Portfolio Image">
+                                <div class="item-overlay">
+                                    <div class="overlay-content">
+                                        <h4>Enter Title Here</h4>
+                                        <h5>Project Category</h5>
+                                    </div>
+                                </div>
+                            </a>
+
+                        </div>
+                    </li>	<!-- END IMAGE #3 -->
+                    <!-- IMAGE #4 -->
+                    <li class="col-xs-6 col-sm-4 col-md-3 portfolio-item illustration graphic_design" data-cat="2">
+                        <div class="hover-overlay">
+
+                            <!-- Image Link -->
+                            <img class="img-responsive" src="~/Content/img/portfolio/img4.jpg" alt="Portfolio Image">
+
+                            <!-- Image Zoom -->
+                            <a class="prettyPhoto image_zoom" href="~/Content/img/portfolio/gallery_2x/img4.jpg" title="Portfolio Image">
+                                <div class="item-overlay">
+                                    <div class="overlay-content">
+                                        <h4>Enter Title Here</h4>
+                                        <h5>Project Category</h5>
+                                    </div>
+                                </div>
+                            </a>
+
+                        </div>
+                    </li>	<!-- END IMAGE #4 -->
+                    <!-- IMAGE #5 -->
+                    <li class="col-xs-6 col-sm-4 col-md-3 portfolio-item web illustration" data-cat="5">
+                        <div class="hover-overlay">
+
+                            <!-- Image Link -->
+                            <img class="img-responsive" src="~/Content/img/portfolio/img5.jpg" alt="Portfolio Image">
+
+                            <!-- Image Zoom -->
+                            <a class="prettyPhoto image_zoom" href="~/Content/img/portfolio/gallery_2x/img5.jpg" title="Portfolio Image">
+                                <div class="item-overlay">
+                                    <div class="overlay-content">
+                                        <h4>Enter Title Here</h4>
+                                        <h5>Project Category</h5>
+                                    </div>
+                                </div>
+                            </a>
+
+                        </div>
+                    </li>	<!-- END IMAGE #5 -->
+                    <!-- IMAGE #6 -->
+                    <li class="col-xs-6 col-sm-4 col-md-3 portfolio-item digital_art web" data-cat="3">
+                        <div class="hover-overlay">
+
+                            <!-- Image Link -->
+                            <img class="img-responsive" src="~/Content/img/portfolio/img6.jpg" alt="Portfolio Image">
+
+                            <!-- Image Zoom -->
+                            <a class="prettyPhoto image_zoom" href="~/Content/img/portfolio/gallery_2x/img6.jpg" title="Portfolio Image">
+                                <div class="item-overlay">
+                                    <div class="overlay-content">
+                                        <h4>Enter Title Here</h4>
+                                        <h5>Project Category</h5>
+                                    </div>
+                                </div>
+                            </a>
+
+                        </div>
+                    </li>	<!-- END IMAGE #6 -->
+                    <!-- IMAGE #7 -->
+                    <li class="col-xs-6 col-sm-4 col-md-3 portfolio-item graphic_design digital_art" data-cat="4">
+                        <div class="hover-overlay">
+
+                            <!-- Image Link -->
+                            <img class="img-responsive" src="~/Content/img/portfolio/img7.jpg" alt="Portfolio Image">
+
+                            <!-- Image Zoom -->
+                            <a class="prettyPhoto image_zoom" href="~/Content/img/portfolio/gallery_2x/img7.jpg" title="Portfolio Image">
+                                <div class="item-overlay">
+                                    <div class="overlay-content">
+                                        <h4>Enter Title Here</h4>
+                                        <h5>Project Category</h5>
+                                    </div>
+                                </div>
+                            </a>
+
+                        </div>
+                    </li>	<!-- END IMAGE #7 -->
+                    <!-- IMAGE #8 -->
+                    <li class="col-xs-6 col-sm-4 col-md-3 portfolio-item web graphic_design" data-cat="5">
+                        <div class="hover-overlay">
+
+                            <!-- Image Link -->
+                            <img class="img-responsive" src="~/Content/img/portfolio/img8.jpg" alt="Portfolio Image">
+
+                            <!-- Image Zoom -->
+                            <a class="prettyPhoto image_zoom" href="~/Content/img/portfolio/gallery_2x/img8.jpg" title="Portfolio Image">
+                                
+                                <div class="item-overlay">
+                                    <div class="overlay-content">
+                                        <h4>Enter Title Here</h4>
+                                        <h5>Project Category</h5>
+                                    </div>
+                                </div>
+                            </a>
+
+                        </div>
+                    </li>	<!-- END IMAGE #8 -->
+
+
+                </ul>
+
+            </div>		<!-- END PORTFOLIO IMAGES HOLDER -->
+
+
+        </section>	   <!-- END LATEST WORKS -->
+        <!-- TEAM
+    ============================================= -->
+
+        <!-- PRICING
+    ============================================= -->
+        <section id="pricing">
+            <div class="container">
+
+
+                <!-- SECTION TITLE -->
+                <div class="row">
+                    <div class="col-sm-12 titlebar">
+                        
+                        <h2>BẢNG GIÁ DỊCH VỤ</h2>
+                    </div>
+                </div>
+
+
+                <!-- PRICING TABLE HOLDER -->
+                <div class="row price-row">
+
+
+                    <!-- PRICE PLAN BASIC -->
+                    <div id="price_1" class="col-xs-6 col-sm-6 col-md-3 animated" data-animation="fadeInRight" data-animation-delay="400">
+                        <div class="pricing-table text-center">
+
+                            <!-- Table Header  -->
+                            <h3>Basic</h3>
+
+                            <!-- Plan Price  -->
+                            <div class="price">
+                                <sup>$</sup>
+                                <span class="color">39</span>
+                                <sup class="color">99</sup>
+                            </div>
+
+                            <!-- Plan Features  -->
+                            <ul class="features">
+                                <li>Up to <strong>5 Projects</strong></li>
+                                <li><strong>5 GB</strong> of Storage</li>
+                                <li>Up to <strong>100 Users</strong></li>
+                                <li><strong>10 GB</strong> Bandwidth</li>
+                                <li><strong>Security Suite</strong></li>
+                            </ul>
+
+
+                            @*<li><a id="GoToWorks" href="#portfolio">SẢN PHẨM</a></li>*@
+                            <!-- Table Button  -->
+                        <a id="GoToWorks" href="#contact-info" class="btn btn-theme">Liên hệ</a>
+
+                        </div>
+                    </div>	<!-- END PRICE PLAN BASIC -->
+                    <!-- PRICE PLAN STANDARD -->
+                    <div id="price_2" class="col-xs-6 col-sm-6 col-md-3 animated" data-animation="fadeInLeft" data-animation-delay="400">
+                        <div class="pricing-table text-center">
+
+                            <!-- Table Header  -->
+                            <h3>Standard</h3>
+
+                            <!-- Plan Price  -->
+                            <div class="price">
+                                <sup>$</sup>
+                                <span class="color">59</span>
+                                <sup class="color">99</sup>
+                            </div>
+
+                            <!-- Plan Features  -->
+                            <ul class="features">
+                                <li>Up to <strong>10 Projects</strong></li>
+                                <li><strong>10 GB</strong> of Storage</li>
+                                <li>Up to <strong>250 Users</strong></li>
+                                <li><strong>25 GB</strong> Bandwidth</li>
+                                <li><strong>Security Suite</strong></li>
+                            </ul>
+
+                            <!-- Table Button  -->
+                            <a id="GoToWorks" href="#contact-info" class="btn btn-theme">Liên hệ</a>
+
+                        </div>
+                    </div>	<!-- END PRICE PLAN STANDARD -->
+                    <!-- PRICE PLAN ADVANCED -->
+                    <div id="price_3" class="col-xs-6 col-sm-6 col-md-3 animated" data-animation="fadeInRight" data-animation-delay="600">
+                        <div class="pricing-table text-center highlight">
+
+                            <!-- Table Header  -->
+                            <h3>Advanced</h3>
+                            <div class="down-arrow"></div>
+
+                            <!-- Plan Price  -->
+                            <div class="price">
+                                <sup>$</sup>
+                                <span class="color">99</span>
+                                <sup class="color">99</sup>
+                            </div>
+
+                            <!-- Plan Features  -->
+                            <ul class="features">
+                                <li><strong>Unlimited Projects</strong></li>
+                                <li><strong>50 GB</strong> of Storage</li>
+                                <li>Up to <strong>1000 Users</strong></li>
+                                <li><strong>100 GB</strong> Bandwidth</li>
+                                <li><strong>Security Suite</strong></li>
+                            </ul>
+
+                            <!-- Table Button  -->
+                            <a id="GoToWorks" href="#contact-info" class="btn btn-theme">Liên hệ</a>
+
+                        </div>
+                    </div>	<!-- END PRICE PLAN ADVANCED -->
+                    <!-- PRICE PLAN ULTIMATE -->
+                    <div id="price_4" class="col-xs-6 col-sm-6 col-md-3 animated" data-animation="fadeInLeft" data-animation-delay="600">
+                        <div class="pricing-table text-center">
+
+                            <!-- Table Header  -->
+                            <h3>Basic</h3>
+
+                            <!-- Plan Price  -->
+                            <div class="price">
+                                <sup>$</sup>
+                                <span class="color">129</span>
+                                <sup class="color">99</sup>
+                            </div>
+
+                            <!-- Plan Features  -->
+                            <ul class="features">
+                                <li><strong>Unlimited Projects</strong></li>
+                                <li><strong>150 GB</strong> of Storage</li>
+                                <li><strong>Unlimited</strong></li>
+                                <li><strong>500 GB</strong> Bandwidth</li>
+                                <li><strong>Security Suite</strong></li>
+                            </ul>
+
+                            <!-- Table Button  -->
+                            <a id="GoToWorks" href="#contact-info" class="btn btn-theme">Liên hệ</a>
+
+                        </div>
+                    </div>	<!-- END PRICE PLAN ULTIMATE -->
+
+
+                </div>	<!-- End row -->
+
+
+            </div>	<!-- End container -->
+        </section>	 <!-- END PRICING -->
+        <!-- CLIENTS
+        <!-- PROMO LINE
+    ============================================= -->
+        <div id="promo_line">
+            <div class="container">
+                <div class="row">
+
+
+                    <!-- PROMO LINE CONTENT -->
+                    <div class="col-md-12 text-center">
+
+                        <h2>Liên hệ <span>với chúng tôi</span> để được tư vấn miễn phí.</h2>
+                        @*<p>Use xLander to showcase your mobile app, services or business projects</p>*@
+
+                        @*<a href="#" class="btn btn-theme">Purchase Now</a>
+                        <a href="#" class="btn btn-theme">Discover More</a>*@
+
+                    </div>
+
+
+                </div>	 <!-- End row -->
+            </div>	  <!-- End container -->
+        </div>	    <!-- END PROMO LINE -->
+        <!-- CONTACT-INFO
+    ============================================= -->
+        <section id="contact-info">
+            <div class="container">
+
+
+                <!-- SECTION TITLE -->
+                <div class="row">
+                    <div class="col-sm-12 titlebar">
+                        @*<h3>THÔNG TIN LIÊN HỆ</h3>*@
+                        <h2>THÔNG TIN LIÊN HỆ</h2>
+                    </div>
+                </div>
+
+
+                <div class="row">
+
+
+                    <!-- Office Location -->
+                    <div class="col-xs-6 col-sm-6 col-md-3 contact-info text-center triggerAnimation animated" data-animate="bounceIn">
+                        <i class="fa fa-map-marker"></i>
+                        <h4 class="contact_title">Địa chỉ</h4>
+                        <p class="contact_description">148D Lý Chính Thắng, Phường 7, Quận 3, Tp. HCM</p>
+                    </div>
+
+
+                    <!-- Call Us -->
+                    <div class="col-xs-6 col-sm-6 col-md-3 contact-info text-center triggerAnimation animated" data-animate="bounceIn">
+                        <i class="fa fa-phone"></i>
+                        <h4 class="contact_title">Điện thoại</h4>
+                        <p class="contact_description">02838.241.221</p>
+                        <p class="contact_description">0909.354.523</p>
+                    </div>
+
+
+                    <!-- Email Address -->
+                    <div class="col-xs-6 col-sm-6 col-md-3 contact-info text-center triggerAnimation animated" data-animate="bounceIn">
+                        <i class="fa fa-envelope-o"></i>
+                        <h4 class="contact_title">Email</h4>
+                        <p class="contact_description">phuongquynh70c@gmail.com</p>
+                        <p class="contact_description">phuongquynh70c@yahoo.com</p>
+                        
+                    </div>
+
+
+                    <!-- Working Hours -->
+                    <div class="col-xs-6 col-sm-6 col-md-3 contact-info text-center triggerAnimation animated" data-animate="bounceIn">
+                        <i class="fa fa-clock-o"></i>
+                        <h4 class="contact_title">Thời gian làm việc</h4>
+                        <p class="contact_description">Thứ hai - Thứ 6: 7h30 - 21h00</p>
+                        <p class="contact_description">Thứ bảy - Chủ nhật: 8h00 - 20h00</p>
+                    </div>
+
+
+                </div>	<!-- End row -->
+
+
+            </div>		     <!-- End container -->
+        </section>	   <!-- END NEWSLETTER -->
+        <!-- GOOGLE MAP
+    ============================================= -->
+        <div id="contacts" class="googlemap-wrapper">
+
+            <div id="map_canvas" class="map-canvas">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.327839658686!2d106.68232611533416!3d10.786183361961664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f2c48e9f5d5%3A0xc205b8b2a62b88f0!2zMTQ4ZCBMw70gQ2jDrW5oIFRo4bqvbmcsIFBoxrDhu51uZyAxNCwgUXXhuq1uIDMsIEjhu5MgQ2jDrSBNaW5oLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1559792902733!5m2!1svi!2s" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+        </div>	<!-- END GOOGLE MAP -->
+        @*<!-- CONTACTS
+    ============================================= -->
+        <section id="contact">
+            <div class="container">
+
+
+                <!-- SECTION TITLE -->
+                <div class="row">
+                    <div class="col-sm-12 titlebar">
+                        <h3>Get in touch!</h3>
+                        <h2>Send us a message</h2>
+                    </div>
+                </div>
+
+
+                <!-- CONTACT FORM -->
+                <div class="row">
+                    <div class="col-sm-12">
+
+                        <form id="contact-form" action="contact.php" name="contactform" class="row" method="post">
+
+                            <div id="input_name" class="col-md-6">
+                                <input type="text" name="first_name" id="name" class="form-control triggerAnimation animated" data-animate="bounceIn" placeholder="Name">
+                            </div>
+
+                            <div id="input_
+            " class="col-md-6">
+                                <input type="text" name="email" id="email" class="form-control triggerAnimation animated" data-animate="bounceIn" placeholder="Email">
+                            </div>
+
+                            <div id="input_subject" class="col-md-12">
+                                <input type="text" name="subject" id="subject" class="form-control triggerAnimation animated" data-animate="bounceIn" placeholder="Subject">
+                            </div>
+
+                            <div id="input_message" class="col-md-12">
+                                <textarea class="form-control triggerAnimation animated" data-animate="bounceIn" name="message" id="comments" rows="6" placeholder="Your Message ..."></textarea>
+                            </div>
+
+                            <!-- Submit Button -->
+                            <div id="form_btn" class="col-md-12">
+                                <div class="text-center">
+                                    <input type="submit" value="Send Message" id="submit" class="btn btn-theme triggerAnimation animated" data-animate="bounceIn">
+                                </div>
+                            </div>
+
+                        </form>
+
+                    </div>
+                </div>	   <!-- END CONTACT FORM -->
+
+
+            </div>	   <!-- End container -->
+        </section>	 <!-- END CONTACTS -->*@
+        <!-- FOOTER
+    ============================================= -->
+        <footer id="footer">
+            <div class="container">
+
+
+                <!-- NEWSLETTER FORM -->
+                <div id="newsletter" class="row">
+                    <div class="col-md-12 text-center">
+
+                        <h3>Thông tin doanh nghiệp</h3>
+                        <p>Doanh nghiệp tư nhân ảnh màu Phương Quỳnh </p>
+                        <p>148D Lý Chính Thắng, Phường 7, Quận 3, Tp. HCM </p>
+                        <p>Mã số thuế: 0300857451 </p>
+
+                        @*<form id="newsletter_form" method="post" action="https://dsathemes.com/html/xlander/text/subscribe.php">
+                            <div id="newsletterfields">
+                                <input id="s_email" type="email" value="" name="email" placeholder="Enter your email address">
+                                <input type="submit" value="Subscribe">
+                            </div>
+                        </form>*@
+
+                        <!-- Newsletter Form Message -->
+                        <div class="message"></div>
+
+                    </div>
+                </div>	<!-- END NEWSLETTER FORM -->
+                <!-- FOOTER COPYRIGHT -->
+                <div class="row">
+                    <div id="footer_copyright" class="col-sm-12 text-center">
+                        <p>Copyright 2019 <span>Phương Quỳnh</span>. All Rights Reserved.</p>
+                    </div>
+                </div>
+
+
+                <!-- FOOTER SOCIALS -->
+                <div class="row">
+
+                    <div id="footer_socials" class="col-sm-12 text-center">
+
+                        <div id="contact_icons">
+                            <ul class="contact-socials clearfix">
+                                <!--
+                                <li><a class="foo_social ico-facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a class="foo_social ico-twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a class="foo_social ico-google-plus" href="#"><i class="fa fa-google-plus"></i></a></li>
+                                <li><a class="foo_social ico-behance" href="#"><i class="fa fa-behance"></i></a></li>
+
+                                <!--
+                                <li><a class="foo_social ico-dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+                                <li><a class="foo_social ico-pinterest" href="#"><i class="fa fa-pinterest"></i></a></li>
+                                <li><a class="foo_social ico-linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a class="foo_social ico-digg" href="#"><i class="fa fa-digg"></i></a></li>
+                                <li><a class="foo_social ico-deviantart" href="#"><i class="fa fa-deviantart"></i></a></li>
+                                <li><a class="foo_social ico-envelope" href="#"><i class="fa fa-envelope-square"></i></a></li>
+                                <li><a class="foo_social ico-delicious" href="#"><i class="fa fa-delicious"></i></a></li>
+                                <li><a class="foo_social ico-instagram" href="#"><i class="fa fa-instagram"></i></a></li>
+                                <li><a class="foo_social ico-dropbox" href="#"><i class="fa fa-dropbox"></i></a></li>
+                                <li><a class="foo_social ico-skype" href="#"><i class="fa fa-skype"></i></a></li>
+                                <li><a class="foo_social ico-youtube" href="#"><i class="fa fa-youtube"></i></a></li>
+                                <li><a class="foo_social ico-tumblr" href="#"><i class="fa fa-tumblr"></i></a></li>
+                                <li><a class="foo_social ico-vimeo" href="#"><i class="fa fa-vimeo-square"></i></a></li>
+                                <li><a class="foo_social ico-flickr" href="#"><i class="fa fa-flickr"></i></a></li>
+                                <li><a class="foo_social ico-github" href="#"><i class="fa fa-github-alt"></i></a></li>
+                                <li><a class="foo_social ico-renren" href="#"><i class="fa fa-renren"></i></a></li>
+                                <li><a class="foo_social ico-vk" href="#"><i class="fa fa-vk"></i></a></li>
+                                <li><a class="foo_social ico-xing" href="#"><i class="fa fa-xing"></i></a></li>
+                                <li><a class="foo_social ico-weibo" href="#"><i class="fa fa-weibo"></i></a></li>
+                                <li><a class="foo_social ico-rss" href="#"><i class="fa fa-rss"></i></a></li>
+                            -->
+
+                            </ul>
+                        </div>
+
+                    </div>
+
+                </div>	<!-- END FOOTER SOCIALS -->
+
+
+            </div>	  <!-- End container -->
+        </footer>	<!-- END FOOTER -->
+
+
+        @RenderBody()
+    </div>	<!-- END CONTENT WRAPPER -->
+    <!-- EXTERNAL SCRIPTS
+    ============================================= -->
+    <script data-cfasync="false" src="~/Content/js/email-decode.min.js"></script>
+    <script src="~/Content/js/jquery-2.1.1.min.js" type="text/javascript"></script>
+    <script src="~/Content/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="~/Content/js/modernizr.custom.js" type="text/javascript"></script>
+    <script src="~/Content/js/jquery.easing.js" type="text/javascript"></script>
+    <script src="~/Content/js/retina.js" type="text/javascript"></script>
+    <script src="~/Content/js/jquery.stellar.min.js" type="text/javascript"></script>
+    <script defer src="~/Content/js/jquery.flexslider.js" type="text/javascript"></script>
+    <script src="~/Content/js/jquery.parallax-1.1.3.js" type="text/javascript"></script>
+    <script defer src="~/Content/js/count-to.js"></script>
+    <script defer src="~/Content/js/jquery.appear.js"></script>
+    <script src="~/Content/js/jquery.mixitup.js" type="text/javascript"></script>
+    <script src="~/Content/js/jquery.prettyPhoto.js" type="text/javascript"></script>
+    <script src="~/Content/js/owl.carousel.js" type="text/javascript"></script>
+    <script src="~/Content/js/jquery.easypiechart.min.js"></script>
+    <script defer src="~/Content/js/jquery.validate.min.js" type="text/javascript"></script>
+    <script src="~/Content/js/waypoints.min.js" type="text/javascript"></script>
+    <script src="~/Content/js/custom.js" type="text/javascript"></script>
+
+
+    <!-- Google Map -->
+    <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+    <script src="~/Content/js/jquery.gmap3.min.js"></script>
+
+    <!-- Google Map Init-->
+    <script type="text/javascript">
+        jQuery(function ($) {
+            $('#map_canvas').gmap3({
+                marker: {
+                    address: '53.430000,-2.96153',
+                    options: { icon: "Content/img/icons/map-marker.png" }
+                },
+                map: {
+                    options: {
+                        zoom: 16,
+                        scrollwheel: false,
+                        streetViewControl: true,
+                        styles: [{
+                            featureType: "all",
+                            stylers: [
+                                { saturation: -100 }
+                            ]
+                        }, {
+                            featureType: "road.arterial",
+                            elementType: "geometry",
+                            stylers: [
+                                { hue: "#000000" },
+                                { saturation: -100 }
+                            ]
+                        }
+                        ],
+                    }
+                }
+            });
+        });
+    </script>
+
+
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+    <!-- Google Analytics: Change UA-XXXXX-X to be your site's ID. Go to http://www.google.com/analytics/ for more information. -->
+    <!--
+    <script>
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-XXXXX-X']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+    -->
+
+
+    <script src="~/Content/js/changer.js" type="text/javascript"></script>
+    <script defer src="~/Content/js/styleswitch.js"></script>
+
+
+</body>
+</html>
